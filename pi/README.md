@@ -28,6 +28,8 @@ Processes the first image to automatically detect the edges of the blackboard an
 - Type the command **python captureImage.py** in the pi directory and it will do all for you.
 - Open the app in your mobile phone and you will start recieving the images.
 
+##### Syntax
+
 ```
       git clone https://github.com/harshitjain1371999/Inclusive-Classroom.git
       cd Inclusive-Classroom/pi
