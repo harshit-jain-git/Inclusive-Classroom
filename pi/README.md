@@ -27,3 +27,14 @@ Processes the first image to automatically detect the edges of the blackboard an
 - Create a folder named pics in your pi folder and then type **python -m SimpleHTTPServer 7000** in the terminal. This will start a python server on port 7000.
 - Type the command **python captureImage.py** in the pi directory and it will do all for you.
 - Open the app in your mobile phone and you will start recieving the images.
+
+### Syntax for usage
+```
+      git clone https://github.com/harshitjain1371999/Inclusive-Classroom.git
+      cd Inclusive-Classroom/pi
+      mkdir pics
+      cd pics
+      python -m SimpleHTTPServer 7000
+      cd ..
+      python captureImage.py
+```
