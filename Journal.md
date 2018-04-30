@@ -1,5 +1,14 @@
 # Inclusive-Classroom
 
+### Requirements on pi -
+- Ubuntu Mate
+- fswebcam
+- Python - 2.7
+- numpy
+- scikit-learn
+- imutils
+- OpenCV - 3.4.1 (Yes, you have to build it from source)
+
 ## Setting up OS in Raspberry Pi
 First, we installed Raspbian OS but to meet the 802.1x security requirements and other minor issues, we later switched to Ubuntu MATE.
 
@@ -78,12 +87,6 @@ Moreover, the app is equipped with various functionalities such as -
 4. Faster processor than that provided by Raspberry pi - Currently, RPi takes about 10 seconds to process the image completely. By using a faster computing device, we can significantly reduce the time.
 
 5. Master Android App - This is an android app which can be made in future so that the professor has more control of the system. For example he can regulate what students can view, save on their devices. Moreover sometimes the camera gets disturbed because of which recalibration needs to be done. This app can then have a program which can recalibrate the system. 
-
-
-
-
-
-
 
 ## References : 
 
