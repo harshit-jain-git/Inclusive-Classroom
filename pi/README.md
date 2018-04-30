@@ -34,6 +34,8 @@ Processes the first image to automatically detect the edges of the blackboard an
       mkdir pics
       cd pics
       python -m SimpleHTTPServer 7000
-      cd ..
+```
+Open a new terminal and navigate to the folder pi of repository and then
+```
       python captureImage.py
 ```
