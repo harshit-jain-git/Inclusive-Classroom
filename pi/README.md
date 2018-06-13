@@ -1,13 +1,13 @@
 # Inclusive-Classroom
 
 ### Requirements on pi -
-- Ubuntu Mate
+- [Ubuntu Mate](https://www.raspberrypi.org/magpi/install-ubuntu-mate-raspberry-pi/)
 - fswebcam
 - Python - 2.7
 - numpy
 - scikit-learn
 - imutils
-- OpenCV - 3.4.1 (Yes, you have to build it from source)
+- [OpenCV - 3.4.1](http://blog.youapp.co/raspberry/2018/03/11/Install-OpenCV-on-raspberry-pi/) (Yes, you have to build it from source)
 
 ### captureImage.py
 
