@@ -91,6 +91,10 @@ def handle_status(auth_status, id):
 	if status == True:
 		flag = True
 
+@socketio.on('open presentation')
+def handler():
+	# code for opening the presentation
+
 @socketio.on('nextSlide')
 def handle_next():
 	# code for navigating next in the slides
@@ -98,7 +102,7 @@ def handle_next():
 @socketio.on('previousSlide')
 def handle_previous():
 	# code for navigating back in the slides
-	
+
 @app.route("/slides", methods=['POST'])
 def upload_form():
 	if request.method == 'POST':
