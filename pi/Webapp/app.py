@@ -91,18 +91,29 @@ def handle_status(auth_status, id):
 	if status == True:
 		flag = True
 
+@socketio.on('nextSlide')
+def handle_next():
+	# code for navigating next in the slides
+
+@socketio.on('previousSlide')
+def handle_previous():
+	# code for navigating back in the slides
+	
 @app.route("/slides", methods=['POST'])
 def upload_form():
 	if request.method == 'POST':
 		f = request.files['file-1[]']
 		f.save('./uploads/' + secure_filename(f.filename))
-		return render_template('thanks.html')
+		return render_template('preview.html')
 
 @app.route("/",methods=['POST'])
 def main_form():
 	if request.method == 'POST':
 		username=request.form['username']
 		password=request.form['password']
+		if (username == 'admin' and password == 'admin'):
+			socketio.emit('authorized_access')
+			return redirect(url_for('slides'))
 		(err,res) = validate(username,password)
 		if(err):
 			return render_template('main.html')
