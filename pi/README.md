@@ -41,8 +41,9 @@ Processes the first image to automatically detect the edges of the blackboard an
 ```
 
 #### Useful Links
-'''
+```
       https://unix.stackexchange.com/questions/122424/execute-a-command-on-user-logon
       https://pyautogui.readthedocs.io/
       http://flask.pocoo.org/docs/0.12/
-'''
+      https://github.com/ys7yoo/PiOpenCV
+```
